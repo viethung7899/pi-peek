@@ -25,7 +25,8 @@ def hello(digits: str):
         return {
             'length': length,
             'before': '',
-            'after': f'3.{data[:10]}'
+            'between': '',
+            'after': f'3.{data[:10]}...'
         }
     
     # Get before and after
@@ -43,6 +44,7 @@ def hello(digits: str):
         'length': length,
         'index': index,
         'before': before,
+        'between': digits,
         'after': after
     }
 
