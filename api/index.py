@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def preload():
     print('Preloading...')
-    with open(join('data', 'pi-million.txt'), 'r') as f:
+    with open(join('data', 'pi.txt'), 'r') as f:
         return f.read()
 
 data = preload()  
